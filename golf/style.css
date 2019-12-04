@@ -1,0 +1,42 @@
+
+
+body {
+   
+    background-color: #111;
+}  
+
+.container {
+    position: relative;
+    width: 560px;
+    height: 373px;
+    border: 4px solid #fff ;
+}
+
+.container .box {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+
+}
+
+.container .box:first-child {
+    background: url(image/golf1.jpg);
+}
+
+.container .box:first-child:hover + /** ~ **/ .box:last-child {
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0 0);
+
+
+}
+
+.container .box:last-child {
+    background: url(image/golf2.jpg);
+    
+    transition: 0.5s;
+    clip-path: polygon(0 0, 100% 0, 100% 0, 0% 100%);
+}
+
+.container .box:last-child:hover {
+    clip-path: polygon(0 0, 100% 0, 100% 100%, 0% 100%);
+}
+
