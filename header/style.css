@@ -1,0 +1,121 @@
+
+
+.head {
+    position: relative;
+    margin: 0 auto;
+    font-family: Quicksand;
+    width: 1100px;
+    background-image: linear-gradient(90deg, rgba(11,7,98,0.8) 0%, rgba(59,14,164,0.8) 50%, rgba(109,4,173,0.8) 100%), url(image/app-hero-bg.jpg)  ; 
+    background-repeat: no-repeat ;
+    z-index: 0;
+    
+    
+}
+
+
+.head .photo_under {
+    background-image: url(image/hero-bg-shape.png);
+    background-repeat: no-repeat ;
+    height: 620px;
+    position: relative;
+    
+    top: 250px;
+}
+
+.head .subscribe {
+    position: absolute;
+    width: 410px;
+    transform: translateY(-450px) translateX(120px);
+}
+
+.head .subscribe h1 {
+    font-size: 35px;
+    color: white;
+    font-weight: 900;
+    line-height: 40px;
+    margin-bottom: 30px;
+    
+}
+
+.head .subscribe h3 {
+    color: white;
+    font-size: 15px;
+    line-height: 25px;
+    margin-bottom: 20px;
+    
+}
+
+.head .input_subscribe form input {
+    height: 50px;
+    width: 300px;
+    border: 1px solid #403698;
+    border-radius: 50px;
+    text-align: left;
+    position: absolute;
+    
+}
+
+.head .input_subscribe button {
+    height: 47px;
+    width: 100px;
+    border: 1px solid #6730E3 ;
+    border-radius: 50px ;
+    background-color: #6730E3 ;
+    color: white;
+    font-size: 15px;
+    font-weight: 200;
+    position: absolute;
+    left: 198px;
+    top: 183.25px;
+    transition: 0.3s;
+    
+}
+
+.head .input_subscribe button:hover {
+    border: 2px solid #6730E3;
+    background-color: white;
+    color: black;
+}
+
+.head .youtube a {
+    width: 50px;
+    height: 50px;
+    background-color:white;
+    position: absolute;
+    z-index: 2;
+    top: 250px;
+    border: 1px solid white;
+    border-radius: 50% ;
+    text-align: center;
+    line-height: 50px;
+    font-size: 18px;
+    color: #1887FF;
+    transition: 0.3s;
+}
+
+.head .youtube a:hover  {
+    background-color: #6730E3 ;
+    color: white;
+    border: 1px solid white;
+    transform : translateY(-3px);
+    transform: scale(1);
+    
+}
+
+.head .youtube p {
+    position: absolute;
+    z-index: 2;
+    top: 268px;
+    left: 65px;
+    color: white;
+    font-weight: 400;
+}
+
+
+.head .photo_head_iphone img {
+   height: 450px;
+   position: absolute;
+   z-index:2;
+   left: 630px;
+   top: -40px;
+}
