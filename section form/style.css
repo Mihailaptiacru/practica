@@ -1,0 +1,112 @@
+.contact_us {
+    margin: 0 auto;
+    width: 1110px;
+    font-family: Quicksand;
+    position: relative;
+    
+}
+.contact_us .inline_block{
+    display: inline-block;
+    margin-top:40px ;
+}
+
+
+.contact_us .contact_info {
+    width: 470px;
+    
+    color: #222;
+    position: absolute;
+    
+}
+.contact_us .contact_info h1{
+    font-size: 27px;
+    margin-bottom: 20px;
+    font-weight: 700;
+}
+.contact_us .contact_info h1+p {
+    margin-bottom: 20px;
+    line-height: 21px;
+    font-weight: 500;
+}
+
+.contact_us .contact_info h1+p+p {
+    margin-bottom: 8px;
+}
+
+.contact_us .contact_info h1+p+p+p+p{
+    margin-top: 20px;
+    margin-bottom: 8px;
+}
+
+.contact_us .contact_info a {
+    text-decoration: none;
+    color: #767BFF ;
+    font-weight: 600;
+}
+.contact_us .contact_info a:hover {
+    color: rgb(35, 38, 134);
+    text-decoration: underline;
+}
+
+
+
+.contact_us .info_client {
+    width: 600px;
+    
+    margin-left: 20px;
+    position: absolute;
+    left: 500px;
+}
+.contact_us .info_client form {
+    display: inline-block;
+}
+
+.contact_us .info_client h2 {
+    font-size: 20px;
+    margin-bottom: 20px;
+    font-weight: 700;
+    margin-left: 10px;
+}
+
+.contact_us .info_client form input {
+    height: 50px;
+    width: 270px;
+    border-radius:5px;
+    border: 1px solid #999;
+    margin: 7px 10px;
+    
+    
+}
+
+.contact_us .info_client .message input {
+    width: 570px;
+    height: 200px;
+    display: block;
+    text-align: center;
+    
+    
+    
+}
+/**.contact_us .info_client .message input::placeholder {
+   display: block;
+    
+
+}
+**/
+.contact_us .info_client button {
+    height: 50px;
+    width: 150px;
+    border: 2px solid #6730E3 ;
+    background-color: #6730E3;
+    border-radius: 25px;
+    color: white;
+    font-size: 16px;
+    box-shadow: -1px 14px 29px -12px rgba(0,0,0,0.75);
+    transition: 0.3s;
+}
+
+.contact_us .info_client button:hover {
+    box-shadow: none;
+    background-color: white;
+    color: rgb(35, 38, 134);
+}
